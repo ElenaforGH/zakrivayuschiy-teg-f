@@ -1,14 +1,59 @@
-/* Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
+@keyframes arrow {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(4px);
+  }
+}
 
-Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
-✦ theme-dark — класс тёмной темы
-✦ theme-light — класс светлой темы
-✦ like-icon — для svg-иконки анимированного сердца
-✦ card__like-button — для кнопки Like рядом с иконкой
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ card__icon-button — для кнопки, оборачивающей иконку
-✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
-✦ button__text — для обозначения текстового элемента внутри кнопки
+@keyframes heart-grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
 
-Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
-*/
+@keyframes sparks {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.like-icon.is-liked .main-body,
+.like-icon:hover .main-body,
+.like-icon:active .main-body {
+  transition: fill 0.3s linear 0.05s;
+}
+
+.like-icon.is-liked .core,
+.like-icon .main-body,
+.like-icon:hover .core,
+.like-icon:active .core {
+  transition: fill 0.3s linear;
+}
+
+.like-icon .main-body {
+  transition: fill 0.3s linear 0.03s;
+}
+
+.like-icon.is-liked .contour {
+  transition: fill 0.3s linear 0.06s;
+}
+
+.like-icon.is-liked .heart {
+  animation: heart-grow 0.3s ease-in 0.1s 2 alternate;
+}
+
+.like-icon.is-liked .sparks {
+  animation: sparks 0.3s ease-in 0.3s 2 alternate;
+}
+
+.like-icon .contour {
+  transition: fill 0.1 linear;
+}
