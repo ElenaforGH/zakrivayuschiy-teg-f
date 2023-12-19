@@ -24,17 +24,17 @@
     );
   --font-color: #000;
   --text-stroke-color: #fff;
-  --button-bg-color: #fff;
+  --button-text-color: #fff;
   --contour-color: #000;
   --icon-fill-color: #ff0000;
-  --filter-idea: invert(90%);
-  --filter-sheet: hue-rotate(160deg) grayscale(80%);
-  --filter-doubt: hue-rotate(130deg) saturate(90%);
-  --filter-ideal: invert(100%);
-  --filter-care: sepia(40%);
-  --filter-strategy: hue-rotate(164deg) brightness(90%);
-  --filter-frustration: grayscale(90%) blur(1px);
-  --filter-today: hue-rotate(220deg) grayscale(85%) brightness(150%);
+  --filter-invert: invert(90%);
+  --filter-huerotate-grayscale: hue-rotate(160deg) grayscale(80%);
+  --filter-huerotate-saturate: hue-rotate(130deg) saturate(90%);
+  --filter-invert-full: invert(100%);
+  --filter-sepia: sepia(40%);
+  --filter-huerotate-brightness: hue-rotate(164deg) brightness(90%);
+  --filter-grayscale-blur: grayscale(90%) blur(1px);
+  --filter-mixed: hue-rotate(220deg) grayscale(85%) brightness(150%);
 }
 
 :root.theme-dark {
@@ -63,16 +63,16 @@
     );
   --font-color: #00cc14;
   --text-stroke-color: #000;
-  --button-bg-color: #00cc14;
+  --button-text-color: #00cc14;
   --contour-color: #00cc14;
-  --filter-idea: invert(90%);
-  --filter-sheet: hue-rotate(160deg) grayscale(80%);
-  --filter-doubt: hue-rotate(130deg) saturate(90%);
-  --filter-ideal: invert(100%);
-  --filter-care: sepia(40%);
-  --filter-strategy: hue-rotate(164deg) brightness(90%);
-  --filter-frustration: grayscale(90%) blur(1px);
-  --filter-today: hue-rotate(220deg) grayscale(85%) brightness(150%);
+  --filter-invert: invert(90%);
+  --filter-huerotate-grayscale: hue-rotate(160deg) grayscale(80%);
+  --filter-huerotate-saturate: hue-rotate(130deg) saturate(90%);
+  --filter-invert-full: invert(100%);
+  --filter-sepia: sepia(40%);
+  --filter-huerotate-brightness: hue-rotate(164deg) brightness(90%);
+  --filter-grayscale-blur: grayscale(90%) blur(1px);
+  --filter-mixed: hue-rotate(220deg) grayscale(85%) brightness(150%);
 }
 
 @media (prefers-color-scheme: light) {
@@ -102,17 +102,17 @@
       );
     --font-color: #000;
     --text-stroke-color: #fff;
-    --button-bg-color: #fff;
+    --button-text-color: #fff;
     --contour-color: #000;
     --icon-fill-color: #ff0000;
-    --filter-idea: invert(90%);
-    --filter-sheet: hue-rotate(160deg) grayscale(80%);
-    --filter-doubt: hue-rotate(130deg) saturate(90%);
-    --filter-ideal: invert(100%);
-    --filter-care: sepia(40%);
-    --filter-strategy: hue-rotate(164deg) brightness(90%);
-    --filter-frustration: grayscale(90%) blur(1px);
-    --filter-today: hue-rotate(220deg) grayscale(85%) brightness(150%);
+    --filter-invert: invert(90%);
+    --filter-huerotate-grayscale: hue-rotate(160deg) grayscale(80%);
+    --filter-huerotate-saturate: hue-rotate(130deg) saturate(90%);
+    --filter-invert-full: invert(100%);
+    --filter-sepia: sepia(40%);
+    --filter-huerotate-brightness: hue-rotate(164deg) brightness(90%);
+    --filter-grayscale-blur: grayscale(90%) blur(1px);
+    --filter-mixed: hue-rotate(220deg) grayscale(85%) brightness(150%);
   }
 }
 
@@ -143,15 +143,15 @@
       );
     --font-color: #00cc14;
     --text-stroke-color: #000;
-    --button-bg-color: #00cc14;
     --contour-color: #00cc14;
-    --filter-idea: invert(90%);
-    --filter-sheet: hue-rotate(160deg) grayscale(80%);
-    --filter-doubt: hue-rotate(130deg) saturate(90%);
-    --filter-ideal: invert(100%);
-    --filter-care: sepia(40%);
-    --filter-strategy: hue-rotate(164deg) brightness(90%);
-    --filter-frustration: grayscale(90%) blur(1px);
-    --filter-today: hue-rotate(220deg) grayscale(85%) brightness(150%);
+    --button-text-color: #00cc14;
+    --filter-invert: invert(90%);
+    --filter-huerotate-grayscale: hue-rotate(160deg) grayscale(80%);
+    --filter-huerotate-saturate: hue-rotate(130deg) saturate(90%);
+    --filter-invert-full: invert(100%);
+    --filter-sepia: sepia(40%);
+    --filter-huerotate-brightness: hue-rotate(164deg) brightness(90%);
+    --filter-grayscale-blur: grayscale(90%) blur(1px);
+    --filter-mixed: hue-rotate(220deg) grayscale(85%) brightness(150%);
   }
 }

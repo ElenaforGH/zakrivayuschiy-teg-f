@@ -18,17 +18,13 @@
   </head>
   <body class="page">
     <header class="header">
-      <span class="header__logo">&lt;/html&gt;</span>
+      <a class="header__logo">&lt;/html&gt;</a>
       <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
           <li class="theme-menu__item">
-            <button
-              type="button"
-              data-theme="dark"
-              class="button theme-menu__button"
-            >
+            <button type="button" data-theme="dark" class="theme-menu__button">
               Темно
             </button>
           </li>
@@ -37,17 +33,13 @@
               type="button"
               data-theme="auto"
               disabled
-              class="button theme-menu__button"
+              class="theme-menu__button"
             >
               Авто
             </button>
           </li>
           <li class="theme-menu__item">
-            <button
-              type="button"
-              data-theme="light"
-              class="button theme-menu__button"
-            >
+            <button type="button" data-theme="light" class="theme-menu__button">
               Светло
             </button>
           </li>
@@ -68,7 +60,7 @@
                 <img
                   src="./images/ideas.jpg"
                   alt="Табличка с призывом воплощать идеи в реальность"
-                  class="card__image card__image-idea"
+                  class="card__image filter-invert"
                 >
               </picture>
               <span class="accent-text">&lt;start&gt;</span>
@@ -82,12 +74,13 @@
               <p>Начинаю путь в IT с отличным настроем! Вперёд!</p>
             </div>
             <div class="card__buttons">
-              <button type="button" class="button card__icon-button">
+              <button type="button" class="card__icon-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 39 36"
                   class="like-icon"
+                  aria-hidden="true"
                 >
                   <g class="heart">
                     <path
@@ -129,7 +122,7 @@
                 <img
                   src="./images/empty-sheet.jpg"
                   alt="Блокнот с незаполненными страницами"
-                  class="card__image card__image-sheet"
+                  class="card__image filter-huerotate-grayscale"
                   loading="lazy"
                 >
               </picture>
@@ -149,12 +142,13 @@
               </p>
             </div>
             <div class="card__buttons">
-              <button type="button" class="button card__icon-button">
+              <button type="button" class="card__icon-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 39 36"
                   class="like-icon"
+                  aria-hidden="true"
                 >
                   <g class="heart">
                     <path
@@ -196,7 +190,7 @@
                 <img
                   src="./images/doubt.jpg"
                   alt="Табличка про преодоление сложностей"
-                  class="card__image card__image-doubt"
+                  class="card__image filter-huerotate-saturate"
                   loading="lazy"
                 >
               </picture>
@@ -213,12 +207,13 @@
               </p>
             </div>
             <div class="card__buttons">
-              <button type="button" class="button card__icon-button">
+              <button type="button" class="card__icon-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 39 36"
                   class="like-icon"
+                  aria-hidden="true"
                 >
                   <g class="heart">
                     <path
@@ -260,7 +255,7 @@
                 <img
                   src="./images/ideal.jpg"
                   alt="Скрэббл о важности практики"
-                  class="card__image card__image-ideal"
+                  class="card__image filter-invert-full"
                   loading="lazy"
                 >
               </picture>
@@ -279,12 +274,13 @@
               </p>
             </div>
             <div class="card__buttons">
-              <button type="button" class="button card__icon-button">
+              <button type="button" class="card__icon-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 39 36"
                   class="like-icon"
+                  aria-hidden="true"
                 >
                   <g class="heart">
                     <path
@@ -326,7 +322,7 @@
                 <img
                   src="./images/care.jpg"
                   alt="Рукопожатие"
-                  class="card__image card__image-care"
+                  class="card__image filter-sepia"
                   loading="lazy"
                 >
               </picture>
@@ -346,12 +342,13 @@
               </p>
             </div>
             <div class="card__buttons">
-              <button type="button" class="button card__icon-button">
+              <button type="button" class="card__icon-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 39 36"
                   class="like-icon"
+                  aria-hidden="true"
                 >
                   <g class="heart">
                     <path
@@ -393,7 +390,7 @@
                 <img
                   src="./images/strategy.jpg"
                   alt="Шахматы"
-                  class="card__image card__image-strategy"
+                  class="card__image filter-huerotate-brightness"
                   loading="lazy"
                 >
               </picture>
@@ -408,12 +405,13 @@
               <p>Знаний уже больше, к сложным задачам просыпается интерес.</p>
             </div>
             <div class="card__buttons">
-              <button type="button" class="button card__icon-button">
+              <button type="button" class="card__icon-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 39 36"
                   class="like-icon"
+                  aria-hidden="true"
                 >
                   <g class="heart">
                     <path
@@ -455,7 +453,7 @@
                 <img
                   src="./images/frustration.jpg"
                   alt="Спящий на ноутбуке кот"
-                  class="card__image card__image-frustration"
+                  class="card__image filter-grayscale-blur"
                   loading="lazy"
                 >
               </picture>
@@ -472,12 +470,13 @@
               <p>Помогало планирование дня, обучение по технике Pomodoro.</p>
             </div>
             <div class="card__buttons">
-              <button type="button" class="button card__icon-button">
+              <button type="button" class="card__icon-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 39 36"
                   class="like-icon"
+                  aria-hidden="true"
                 >
                   <g class="heart">
                     <path
@@ -519,11 +518,11 @@
                 <img
                   src="./images/today.jpg"
                   alt="Табличка про хороший день"
-                  class="card__image card__image-today"
+                  class="card__image filter-mixed"
                   loading="lazy"
                 >
               </picture>
-              <span class="accent-text">&lt;frustration&gt;</span>
+              <span class="accent-text">&lt;now&gt;</span>
             </div>
             <div class="card__text">
               <p>
@@ -540,12 +539,13 @@
               </p>
             </div>
             <div class="card__buttons">
-              <button type="button" class="button card__icon-button">
+              <button type="button" class="card__icon-button">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 39 36"
                   class="like-icon"
+                  aria-hidden="true"
                 >
                   <g class="heart">
                     <path
@@ -578,15 +578,13 @@
           </article>
         </li>
       </ul>
-    </main>
-    <footer class="footer">
       <button
         type="button"
-        class="button footer__button"
+        class="button save-button"
         onclick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
       >
-        <svg class="floppy-icon footer__button-icon">
+        <svg class="floppy-icon">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <span class="button__text">Сохранить на память</span>
@@ -596,15 +594,17 @@
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
-        <button
-          type="button"
-          class="button dialog__button"
-          onclick="window['dialog-id'].close()"
-        >
-          <span class="button__text">ок</span>
-        </button>
+        <form method="dialog" class="dialog__form">
+          <button
+            type="submit"
+            class="button dialog__button"
+            onclick="window['dialog-id'].close()"
+          >
+            <span class="button__text">ок</span>
+          </button>
+        </form>
       </dialog>
-    </footer>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
